@@ -1,0 +1,39 @@
+/*colors: watermelo: #FF6A5C
+Teal: #056571*/
+html {
+  background-color: #CCDFCB;
+  font-family: Candara, Monaco;
+}
+#navigation {
+  background-color: #414141;
+  padding-top:20px;
+  width: 100%;
+  height: 100px;
+}
+#navigation li {
+  list-style: none;
+  display: inline;
+  /*margin-right: 260px;*/
+  margin-left: 260px;
+}
+#navigation li a {
+  color: white;
+}
+.butn {
+
+}
+#words h1 {
+  color: #414141;
+}
+#words h2 {
+  color: #FF6A5C;
+}
+#words h3 {
+  color: #056571;
+}
+#words h4 {
+  color: #5F0F4E;
+}
+#words h5 {
+  color: #E52A6F;
+}
