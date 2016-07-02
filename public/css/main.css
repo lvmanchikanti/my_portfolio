@@ -1,11 +1,16 @@
 
 body {
-  background: linear-gradient(341deg, #03a477, #95de77, #75ebcb, #4ce5f2, #1a5078);
+  background: linear-gradient(204deg, #03a477, #95de77, #75ebcb, #4ce5f2, #1a5078);
   background-size: 1000% 1000%;
-
-  -webkit-animation: AnimationName 12s ease infinite;
-  -moz-animation: AnimationName 12s ease infinite;
-  animation: AnimationName 12s ease infinite;
+/* greens
+#03a477, #95de77, #75ebcb, #4ce5f2, #1a5078
+*/
+/*pinks
+#d658bd, #d64a77, #da3b3b, #fc8c5c, #fcbd5c, #fcef5c
+*/
+  -webkit-animation: AnimationName 9s ease infinite;
+  -moz-animation: AnimationName 9s ease infinite;
+  animation: AnimationName 9s ease infinite;
 }
 #navigation {
   padding-top: 15px;
@@ -35,7 +40,7 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Nobile', sans-serif;
   font-size: 100px;
   color: white;
   /*padding-left: 210px;*/
@@ -43,27 +48,34 @@ h1 {
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:78% 0%}
+    50%{background-position:23% 100%}
+    100%{background-position:78% 0%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:78% 0%}
+    50%{background-position:23% 100%}
+    100%{background-position:78% 0%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:78% 0%}
+    50%{background-position:23% 100%}
+    100%{background-position:78% 0%}
 }
 
 .btn {
   display: inline;
 }
 
-#contact {
+#abt {
+  padding-top: 270px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-contact {
   background-color: #999999;
+  height: 400px;
 }
 
 h2 {
