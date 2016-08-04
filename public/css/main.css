@@ -1,16 +1,12 @@
 
-body {
+header {
   background: linear-gradient(204deg, #03a477, #95de77, #75ebcb, #4ce5f2, #1a5078);
   background-size: 1000% 1000%;
-/* greens
-#03a477, #95de77, #75ebcb, #4ce5f2, #1a5078
-*/
-/*pinks
-#d658bd, #d64a77, #da3b3b, #fc8c5c, #fcbd5c, #fcef5c
-*/
+
   -webkit-animation: AnimationName 9s ease infinite;
   -moz-animation: AnimationName 9s ease infinite;
   animation: AnimationName 9s ease infinite;
+  padding-bottom: 380px;
 }
 #navigation {
   padding-top: 15px;
@@ -19,11 +15,11 @@ body {
 .ghost-button {
   list-style: none;
   display: inline-block;
-  width: 100px;
-  padding: 8px;
+  width: 150px;
+  padding: 5px;
   color: #fff;
-  border: 1px solid #fff;
-  border-radius: 20px;
+  border: 2px solid #fff;
+  /*border-radius: 20px;*/
   text-align: center;
   outline: none;
   text-decoration: none;
@@ -40,11 +36,12 @@ body {
 }
 
 h1 {
-  font-family: 'Nobile', sans-serif;
-  font-size: 100px;
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
   color: white;
   /*padding-left: 210px;*/
-  padding-top: 100px;
+  padding-top: 180px;
+  white-space: nowrap;
 }
 
 @-webkit-keyframes AnimationName {
@@ -63,21 +60,45 @@ h1 {
     100%{background-position:78% 0%}
 }
 
-.btn {
-  display: inline;
-}
-
 #abt {
-  padding-top: 270px;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding: 160px;
+  padding-top: 540px;
 }
 
 .container-contact {
-  background-color: #999999;
-  height: 400px;
+  position: relative;
+
+}
+
+.text {
+  position: absolute;
+  top: -620px;
 }
 
 h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.me {
+  color: black;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 70px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+ul {
   text-align: center;
 }
