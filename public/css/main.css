@@ -80,10 +80,11 @@ p {
   position: absolute;
   top: -10px;
   left: 90px;
+  background-color: transparent;
 }
-.terr1:hover {
-  color: #80f077;
-}
+/*.t1:hover {
+  opacity: 0.3;
+}*/
 .terr2 {
   position: absolute;
   top: 2px;
