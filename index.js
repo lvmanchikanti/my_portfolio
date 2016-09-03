@@ -19,10 +19,15 @@ server.get('/projects', function(request, response){
     response.sendFile('public/html/projects.html', {root: __dirname});
 });
 
+server.get('/portfolio', function(request, response){
+    response.sendFile('public/html/portfolio.html', {root: __dirname});
+});
 server.post('/projects', function(request, response){
   response.json(request.body);
 });
-
+server.post('/portfolio', function(request, response){
+  response.json(request.body);
+});
 server.post('/about', function(request, response){
   response.json(request.body);
 });
