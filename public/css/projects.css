@@ -24,6 +24,7 @@ body {
 img {
   margin-left: -60px;
 }
+
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -32,6 +33,8 @@ img {
   position: relative;
   text-align: center;
   cursor: default;
+  margin-left: 20px;
+  margin-top: 100px;
 }
 
 .hovereffect .overlay {
