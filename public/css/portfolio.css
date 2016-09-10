@@ -1,13 +1,13 @@
 header {
   font-family: 'Quicksand', sans-serif;
 }
-img {
+.succulent {
   margin-left: -60px;
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-img:hover {
+.succulent:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
@@ -29,4 +29,10 @@ img {
 }
 p {
   margin-top: -10px;
+}
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
 }
