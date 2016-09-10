@@ -1,10 +1,10 @@
 var express = require('express');
 var server = express();
-// var bodyParser = require('body-parser');
+
+var port = process.env.PORT || 8080;
 
 server.use(express.static(__dirname+'/public'));
-// server.use(bodyParser.json());
-// server.use(bodyParser.urlencoded({extended: true}));
+
 
 
 server.get('/', function(request, response){
@@ -32,6 +32,6 @@ server.post('/about', function(request, response){
   response.json(request.body);
 });
 
-server.listen(8080, function(){
-  console.log('Now listening for requests');
+server.listen(port, function(){
+  console.log('Now listening on port ...' + port);
 });
