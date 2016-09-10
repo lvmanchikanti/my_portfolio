@@ -2,7 +2,6 @@ header {
   font-family: 'Quicksand', sans-serif;
 }
 .succulent {
-  margin-left: -60px;
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
@@ -35,4 +34,7 @@ p {
   max-width: 100%;
   height: auto;
   margin-top: 40px;
+}
+.jumbotron {
+  background-color: transparent;
 }
